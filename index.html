@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Zdjęć z Imprez</title>
+    <link rel="stylesheet" href="../Chat GPT/Plik CSS.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria Zdjęć z Imprez</h1>
+    </header>
+
+    <main>
+        <section class="events">
+            <div class="event">
+                <h2>Impreza 1</h2>
+                <p>Wprowadź PIN, aby uzyskać dostęp do zdjęć:</p>
+                <form class="pin-form">
+                    <input type="password" placeholder="Wprowadź PIN" required>
+                    <button type="submit">Zatwierdź</button>
+                </form>
+                <button class="download-all" style="display:none;">Pobierz Wszystko</button>
+                <div class="photos" style="display:none;">
+                <a href="https://drive.google.com/drive/folders/12VwrKZSdueVwgAa6uhQ8k8-NYBgJRgmR?usp=share_link" class="download">Pobierz</a>
+                    <div class="photo">
+                        <img src="../Chat GPT/ene.jpeg" alt="Zdjęcie z imprezy 1">
+                        <p>Zdjęcie 1</p>
+                        <div class="download-options">
+                            <span class="dots">•••</span>
+                            <a href="https://drive.google.com/file/d/1Zyw5Ao3FEQHq3X-QfNwo1vW49cIqLQcF/view?usp=share_link" download="zdjecie1.jpg" class="download">Pobierz</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <img src="../Chat GPT/ene2.jpeg" alt="Zdjęcie z imprezy 2">
+                        <p>Zdjęcie 2</p>
+                        <div class="download-options">
+                            <span class="dots">•••</span>
+                            <a href="../Chat GPT/ene2.jpeg" download="zdjecie2.jpg" class="download">Pobierz</a>
+                        </div>
+                    </div>
+                    <!-- Dodaj więcej zdjęć tutaj -->
+                </div>
+            </div>
+            <!-- Dodaj więcej imprez tutaj -->
+        </section>
+    </main>
+
+    <script src="../Chat GPT/Java Script.js"></script>
+</body>
+</html>
